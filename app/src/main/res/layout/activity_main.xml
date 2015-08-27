@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <include android:id="@+id/player_delight" layout="@layout/view_player" />
+        <include android:id="@+id/player_anger" layout="@layout/view_player" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <include android:id="@+id/player_sorrow" layout="@layout/view_player" />
+        <include android:id="@+id/player_walk" layout="@layout/view_player" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="delight">#FFFD62</color>
+    <color name="anger">#E96076</color>
+    <color name="sorrow">#5384D8</color>
+    <color name="walk">#C0C0C0</color>
+
+    <color name="text">#46474D</color>
+
+</resources>

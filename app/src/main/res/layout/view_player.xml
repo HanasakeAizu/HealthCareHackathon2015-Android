@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/delight">
+
+    <TextView
+        android:id="@+id/emotion_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:text="喜ぶ" />
+
+    <jp.hanasake.hackathon.demo.character_animation.CharacterAnimationPlayerView
+        android:id="@+id/player_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/emotion_label"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/emotion_label"
+        android:layout_alignRight="@id/emotion_label" />
+
+    <TextView
+        android:id="@+id/click_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/player_image_view"
+        android:layout_alignTop="@id/player_image_view"
+        android:layout_alignRight="@id/player_image_view"
+        android:layout_alignBottom="@id/player_image_view"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:text="@string/click"/>
+
+</RelativeLayout>
